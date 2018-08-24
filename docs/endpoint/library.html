@@ -1,0 +1,89 @@
+<h1>Library Endpoint</h1>
+
+Live data on the current status of some of the Library services and events.
+
+<br />
+
+<h2>Usage</h2>
+<div class="code">
+    GET /library/{method name}/{parameters}
+</div>
+
+<br />
+<h2>Methods</h2>
+
+
+
+<div id="method">
+    <h3 id="title">Opening Hours</h3>
+
+    <table id="methodSummary">
+        <tr>
+            <td><b>Description</b></td>
+            <td id="description" class="medium-text">Library Opening hours for the given date</td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text"> A date string (YYYY-MM-DD). This date shouldn't be too much ahead in future</td>
+        </tr>
+        <tr>
+            <td><b>Examples</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/hours/2018-04-19</td>
+        </tr>
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/library-opening-hours.json" target="_blank">library-opening-hours.json</a></td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="method">
+    <h3 id="title">Upcoming Events</h3>
+
+    <table id="methodSummary">
+        <tr>
+            <td><b>Description</b></td>
+            <td id="description" class="medium-text">Returns the events (Up to 4) taking place at the Library in the near future.</td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text">None</td>
+        </tr>
+        <tr>
+            <td><b>Examples</b></td>
+            <td id="example" class="medium-text">https://open-data-dev.concordia.ca/API/v1/library/events/</td>
+        </tr>
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/library-upcoming-events.json" target="_blank">library-upcoming-events.json</a></td>
+        </tr>
+    </table>
+</div>
+
+
+<div id="method">
+    <h3 id="title">Computer Availability</h3>
+
+    <table id="methodSummary">
+        <tr>
+            <td><b>Description</b></td>
+            <td class="medium-text">	Real time availability of desktop computers, laptops and tablet in Webster and Vanier libraries</td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text">None</td>
+        </tr>
+        <tr>
+            <td><b>Examples</b></td>
+            <td id="example" class="medium-text">https://open-data-dev.concordia.ca/API/v1/library/computers/</td>
+        </tr>
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/library-computer-availability.json" target="_blank">library-computer-availability.json</a></td>
+        </tr>
+    </table>
+</div>
+
+
+

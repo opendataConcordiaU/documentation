@@ -7,7 +7,7 @@
 */
 body {
 	font: 16px/26px 'Arial', sans-serif;
-	background-color: #fff;
+	background-color: #fefefe;
   }
   
 
@@ -71,6 +71,10 @@ body {
 	display: table;
 }
 
+.medium-text{
+	font-size: 0.75em;
+}
+
 /*
 -------------------------------------------------------------------------------------
 ----------------- LAYOUT 
@@ -86,17 +90,15 @@ body {
 
 #sectionTitleInner{
 	width: 70%;
-    display: inline-block;
+   display: inline-block;
 	text-align: left;
 	color: #fff;
-	font: normal 18px 'GillSansMTProMedium';
 	text-transform: uppercase;
 	padding-left: 80px;
 
 }
 
 #header {
-	background-color: #ddd;
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -262,7 +264,14 @@ body {
 }
 #methodSummary tr{
 	border-bottom: #ccc solid 1px;
+	padding: 5px;
 }
+
+#methodSummary td{
+	border-bottom: #ccc solid 1px;
+	padding: 5px;
+}
+
 /*
 -------------------------------------------------------------------------------------
 ----------------- MAIN MENU / left column
@@ -306,53 +315,6 @@ body {
 .submenuLI{
 	padding: 0px !important;
 }
-
-/*
--------------------------------------------------------------------------------------
------------------ TABLE 
-------------------------------------------------------------------------------------- 
-*/
-
-
-td {
-	border-bottom-width: thin;
-	border-bottom-style: dotted;
-	border-bottom-color: #333;
-	background-color:transparent;
-}
-
-tr:hover {
-	background-color:#eee;
-/*	cursor: pointer; */
-	
-}
-
-tr{
-/*	background-color:#eee; */
-}
-
-#tableTitle {
-	font-weight: bold;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
-	border-bottom-color: #333;
-/*	background-color:#ddd; */
-}
-
-
-.tr-closed{
-	display:none;
-}
-
-.tr-open{
-	display:table-row;
-}
-
-img{
-	margin-right: 5px;
-	margin-left: 5px;	
-}
-
 
 /* ---------------------------------------------------------------------------------------------------
 -----------------------------   Buttons    ----------------------------------------------------------
