@@ -27,8 +27,8 @@ Live data on the current status of some of the Library services and events.
             <td id="parameters" class="medium-text"> A date string (YYYY-MM-DD). This date shouldn't be too much ahead in future</td>
         </tr>
         <tr>
-            <td><b>Examples</b></td>
-            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/hours/2018-04-19</td>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/hours/{date}</td>
         </tr>
         <tr>
             <td><b>Response</b></td>
@@ -51,8 +51,8 @@ Live data on the current status of some of the Library services and events.
             <td id="parameters" class="medium-text">None</td>
         </tr>
         <tr>
-            <td><b>Examples</b></td>
-            <td id="example" class="medium-text">https://open-data-dev.concordia.ca/API/v1/library/events/</td>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/events/</td>
         </tr>
         <tr>
             <td><b>Response</b></td>
@@ -68,15 +68,15 @@ Live data on the current status of some of the Library services and events.
     <table id="methodSummary">
         <tr>
             <td><b>Description</b></td>
-            <td class="medium-text">	Real time availability of desktop computers, laptops and tablet in Webster and Vanier libraries</td>
+            <td class="medium-text">Real time availability of desktop computers, laptops and tablet in Webster and Vanier libraries</td>
         </tr>
         <tr>
             <td><b>Paramenters</b></td>
             <td id="parameters" class="medium-text">None</td>
         </tr>
         <tr>
-            <td><b>Examples</b></td>
-            <td id="example" class="medium-text">https://open-data-dev.concordia.ca/API/v1/library/computers/</td>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/computers/</td>
         </tr>
         <tr>
             <td><b>Response</b></td>
@@ -86,4 +86,71 @@ Live data on the current status of some of the Library services and events.
 </div>
 
 
+<div id="method">
+    <h3 id="title">Occupancy</h3>
 
+    <table id="methodSummary">
+        <tr>
+            <td><b>Description</b></td>
+            <td class="medium-text">Real time estimate of people inside the library different buildings based on data collected by the thermal and optical sensors placed in the different doors. </td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text">None</td>
+        </tr>
+        <tr>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/occupancy/</td>
+        </tr>
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/library-computer-occupancy.json" target="_blank">library-computer-occupancy.json</a></td>
+        </tr>
+    </table>
+</div>
+
+<div id="method">
+    <h3 id="title">Room List</h3>
+
+    <table id="methodSummary">
+        <tr>
+            <td><b>Description</b></td>
+            <td class="medium-text">A list of all “bookable” resources in the library including group study rooms, presentation rooms and scanners. This method is normally use to obtain the resource identifier and schedule identifier needed to make the call to get the real-time availability of the resource. </td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text">None</td>
+        </tr>
+        <tr>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/rooms/getRoomsList</td>
+        </tr>
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/library-room-list.json" target="_blank">library-room-list.json</a></td>
+        </tr>
+    </table>
+</div>
+
+<div id="method">
+    <h3 id="title">Reservations</h3>
+
+    <table id="methodSummary">
+        <tr>
+            <td><b>Description</b></td>
+            <td class="medium-text">A real-time list of reservations made in current day for the given resource</td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text">Resource ID and Schedule ID</td>
+        </tr>
+        <tr>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/library/rooms/getRoomReservations/{resourceID}/{scheduleID}</td>
+        </tr>
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/library-room-reservations.json" target="_blank">library-room-reservations.json</a></td>
+        </tr>
+    </table>
+</div>

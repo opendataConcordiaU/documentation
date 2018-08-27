@@ -31,7 +31,7 @@ class ODCU_library{
         curl_close($curl);
 
         if ($err) {
-          //  var_dump($err);
+            var_dump($err);
             return false;
         } else {
             return $response;
@@ -74,14 +74,15 @@ class ODCU_library{
     }
 
     function reservations($rid,$sid){
-        
+        $url = $this->baseURL."rooms/getRoomReservations/$rid/$sid";
+        $result = $this->query($url);
+        return $result;
     }
 
 }
 
 
 //make the class available in javacript
-
 if(isset($_GET['action'])){
 
     $endpoint = new ODCU_library();
@@ -112,9 +113,8 @@ if(isset($_GET['action'])){
         
         case 'reservations':
             if(isset($_GET['rid']) and isset($_GET['sid']) ){
-                echo $endpoint->roomList();
-            }
-            
+                echo $endpoint->reservations($_GET['rid'],$_GET['sid']);
+            }           
             break;
     }
 }
