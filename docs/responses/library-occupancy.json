@@ -1,0 +1,14 @@
+{
+    "Webster": {
+        "Occupancy": "367.0000",
+        "LastRecordTime": "2018-08-27 16:45:00.000"
+    },
+    "Vanier": {
+        "Occupancy": "104.0000",
+        "LastRecordTime": "2018-08-27 16:15:00.000"
+    },
+    "GreyNuns": {
+        "Occupancy": "-5.0000",
+        "LastRecordTime": "2018-08-27 16:45:00.000"
+    }
+}

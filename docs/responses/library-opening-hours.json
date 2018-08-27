@@ -1,0 +1,34 @@
+[
+    {
+        "service": "Webster Library",
+        "text": "9 AM to 10 PM"
+    },
+    {
+        "service": "Reference Desk",
+        "text": "9 AM to 5 PM"
+    },
+    {
+        "service": "Loans and Returns",
+        "text": "9 AM to 5 PM"
+    },
+    {
+        "service": "Interlibrary Loans",
+        "text": "9 AM to 5 PM"
+    },
+    {
+        "service": "Technology Sandbox",
+        "text": "10 AM to 6 PM"
+    },
+    {
+        "service": "Vanier Library",
+        "text": "9 AM to 10 PM"
+    },
+    {
+        "service": "Special Collections",
+        "text": "9 AM to 5 PM"
+    },
+    {
+        "service": "Grey Nuns",
+        "text": "Closed - 24h"
+    }
+]

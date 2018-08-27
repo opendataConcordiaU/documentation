@@ -1,0 +1,272 @@
+[
+    {
+        "resourceID": "52",
+        "name": "ArcGIS - Webster Library Workstation W-229",
+        "scheduleID": "7"
+    },
+    {
+        "resourceID": "51",
+        "name": "ASHRAE, SAE Handbooks, BibleWorks - Webster Library Workstation W305-004",
+        "scheduleID": "7"
+    },
+    {
+        "resourceID": "70",
+        "name": "Bad room - Vanier Library VL 305 - Graduate Study Room",
+        "scheduleID": "9"
+    },
+    {
+        "resourceID": "31",
+        "name": "Grey Nuns B.101",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "32",
+        "name": "Grey Nuns B.102",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "33",
+        "name": "Grey Nuns B.104",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "21",
+        "name": "Grey Nuns B.106",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "22",
+        "name": "Grey Nuns B.108",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "23",
+        "name": "Grey Nuns B.109",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "24",
+        "name": "Grey Nuns B.110",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "25",
+        "name": "Grey Nuns B.111",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "26",
+        "name": "Grey Nuns B.120",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "27",
+        "name": "Grey Nuns B.121",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "28",
+        "name": "Grey Nuns B.122",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "29",
+        "name": "Grey Nuns B.123",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "30",
+        "name": "Grey Nuns B.124",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "34",
+        "name": "Grey Nuns B.125",
+        "scheduleID": "3"
+    },
+    {
+        "resourceID": "49",
+        "name": "Vanier Library Microform Scanner",
+        "scheduleID": "6"
+    },
+    {
+        "resourceID": "47",
+        "name": "Vanier Library V-105 Flatbed Scanner",
+        "scheduleID": "6"
+    },
+    {
+        "resourceID": "48",
+        "name": "Vanier Library V-211 Flatbed Scanner",
+        "scheduleID": "6"
+    },
+    {
+        "resourceID": "71",
+        "name": "Vanier Library VL 305 - Graduate Study Room",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "35",
+        "name": "Webster Library W305-001 Flatbed scanner",
+        "scheduleID": "4"
+    },
+    {
+        "resourceID": "36",
+        "name": "Webster Library W305-002 Flatbed scanner",
+        "scheduleID": "4"
+    },
+    {
+        "resourceID": "37",
+        "name": "Webster Library W305-003 Flatbed scanner",
+        "scheduleID": "4"
+    },
+    {
+        "resourceID": "17",
+        "name": "Vanier Library VL 301-10",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "11",
+        "name": "Vanier Library VL 301-11",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "45",
+        "name": "Vanier Library VL 301-12",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "46",
+        "name": "Vanier Library VL 301-13",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "12",
+        "name": "Vanier Library VL 301-20",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "64",
+        "name": "Webster Library LB-209 (Morocco)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "13",
+        "name": "Vanier Library VL 301-21",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "61",
+        "name": "Webster Library LB-251 (Luxembourg)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "15",
+        "name": "Vanier Library VL 301-22",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "62",
+        "name": "Webster Library LB-257 (Croatia)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "16",
+        "name": "Vanier Library VL 301-23",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "63",
+        "name": "Webster Library LB-259 (New Zealand)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "14",
+        "name": "Vanier Library VL 301-24",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "72",
+        "name": "Vanier Library VL 301-25",
+        "scheduleID": "2"
+    },
+    {
+        "resourceID": "65",
+        "name": "Webster Library LB-311 (Haiti) - Presentation Practice Room",
+        "scheduleID": "10"
+    },
+    {
+        "resourceID": "66",
+        "name": "Webster Library LB-316 (Australia) - Presentation Practice Room",
+        "scheduleID": "10"
+    },
+    {
+        "resourceID": "67",
+        "name": "Webster Library LB-327 (Syria) - Presentation Practice Room",
+        "scheduleID": "10"
+    },
+    {
+        "resourceID": "68",
+        "name": "Webster Library LB-328 (Zimbabwe) - Presentation Practice Room",
+        "scheduleID": "10"
+    },
+    {
+        "resourceID": "53",
+        "name": "Webster Library LB-351 (Netherlands)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "54",
+        "name": "Webster Library LB-353 (Kenya)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "55",
+        "name": "Webster Library LB-359 (Vietnam)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "6",
+        "name": "Webster Library LB-451 (Brazil)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "5",
+        "name": "Webster Library LB-453 (Japan)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "4",
+        "name": "Webster Library LB-459 (Italy)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "7",
+        "name": "Webster Library LB-481",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "58",
+        "name": "Webster Library LB-518 (Ukraine)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "57",
+        "name": "Webster Library LB-520 (South Africa) - Consultation Room",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "56",
+        "name": "Webster Library LB-522 (Peru)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "59",
+        "name": "Webster Library LB-547 (Lithuania)",
+        "scheduleID": "1"
+    },
+    {
+        "resourceID": "60",
+        "name": "Webster Library LB-583 (Poland)",
+        "scheduleID": "1"
+    }
+]

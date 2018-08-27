@@ -1,0 +1,37 @@
+[
+    {
+        "referenceNumber": 0,
+        "startDate": "2018-08-26 00:00:00",
+        "endDate": "2018-08-26 10:00:00"
+    },
+    {
+        "referenceNumber": 0,
+        "startDate": "2018-08-26 21:00:00",
+        "endDate": "2018-08-27 00:00:00"
+    },
+    {
+        "referenceNumber": 0,
+        "startDate": "2018-08-27 00:00:00",
+        "endDate": "2018-08-27 09:00:00"
+    },
+    {
+        "referenceNumber": 0,
+        "startDate": "2018-08-27 22:00:00",
+        "endDate": "2018-08-28 00:00:00"
+    },
+    {
+        "referenceNumber": "5b801de4017ab848758577",
+        "startDate": "2018-08-27 15:00:00",
+        "endDate": "2018-08-27 17:30:00"
+    },
+    {
+        "referenceNumber": "5b81e4d2ec5f4133042274",
+        "startDate": "2018-08-27 17:30:00",
+        "endDate": "2018-08-27 18:30:00"
+    },
+    {
+        "referenceNumber": "5b8047aa7f2ea109327008",
+        "startDate": "2018-08-27 18:30:00",
+        "endDate": "2018-08-27 20:30:00"
+    }
+]
