@@ -7,7 +7,9 @@
 */
 body {
 	font: 16px/26px 'Arial', sans-serif;
-	background-color: #fefefe;
+	background-color: #ddd;
+	padding: 0px;
+	margin: 0px;
   }
   
 
@@ -102,10 +104,12 @@ body {
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
+	background: #fff;
+/*	border-bottom: #ccc solid 1px;  */
 }
 
 
@@ -219,10 +223,11 @@ body {
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 5px;
-	padding-left: 10px;
+	padding-left: 30px;
 	width: 75%;
 	margin-left: 20px;	
-	background-color: #fff;
+	background-color: #f0f0f0;
+/*	border-left: #fff solid 1px; */
 }
 
 
@@ -262,15 +267,25 @@ body {
 #methodSummary{
 	width: 90%;
 }
-#methodSummary tr{
-	border-bottom: #ccc solid 1px;
-	padding: 5px;
-}
+
 
 #methodSummary td{
 	border-bottom: #ccc solid 1px;
-	padding: 5px;
+	padding: 10px;
 }
+
+#methodSummaryLeftCol{
+	width: 150px;
+}
+
+#method{
+	margin-top: 30px;
+	border: #ddd solid 1px;
+	padding: 20px;
+	width: 90%;
+}
+
+
 
 /*
 -------------------------------------------------------------------------------------
@@ -282,7 +297,9 @@ body {
 #mainMenu {
 	margin: 0px;
 	padding: 0px;
+	padding-left: -10px;
 	width: 100%;
+
 	
 }
 
@@ -296,10 +313,12 @@ body {
 }
 
 #menu {
-	padding: 0px;
+	padding: 5 px;
 	float: left;
 	margin-right: 0px;
 	width: 20%;
+
+	
 }
 
 .submenuTitle{
@@ -542,7 +561,9 @@ body {
 
 	#menu {
 		width: 100%;
+		background: #666;
 	}
+
 	#main {
 	width:98%;
 	padding-left: 0px;
@@ -574,7 +595,8 @@ body {
 		width: 100%;
 	}
 	#innerContainer{	
-		width:100%
+		width:100%;
+
 	}
 	#editcardcontent{
 	width:100%;
