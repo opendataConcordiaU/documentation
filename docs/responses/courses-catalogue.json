@@ -1,0 +1,712 @@
+[
+    {
+        "ID": "000026",
+        "title": "Financial and Managerial Accounting",
+        "subject": "ACCO",
+        "catalog": " 220",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO213, ACCO218, ACCO230, ACCO240",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000027",
+        "title": "Introduction to Financial Accounting",
+        "subject": "ACCO",
+        "catalog": " 230",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO213, ACCO220, COMM217; Never Taken: ACCO240, ACCO340, ACCO345, ACCO365, ACCO455, ACCO470F, ACCO470I, ACCO470S, ACCO470T, COMM305, COMM308, IBUS471I",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000028",
+        "title": "Introduction to Managerial Accounting",
+        "subject": "ACCO",
+        "catalog": " 240",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO218, ACCO220, COMM305; Never Taken: ACCO310, ACCO330, ACCO350, ACCO355, ACCO470I, IBUS462, IBUS471I, MARK462 You must complete 1 of the following rules   Course Prer",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000035",
+        "title": "Financial Reporting I",
+        "subject": "ACCO",
+        "catalog": " 310",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO323; Never Taken: ACCO320, ACCO350 You must complete 1 of the following rules   Course Corequisite: COMM305, ACCO218, ACCO240",
+        "crosslisted": "ACCO 310 = ACCO 323"
+    },
+    {
+        "ID": "000043",
+        "title": "Financial Reporting II",
+        "subject": "ACCO",
+        "catalog": " 320",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO326; Never Taken: ACCO410, ACCO420, ACCO400, ACCO450, ACCO460 You must complete 1 of the following rules   Course Prerequisite: ACCO310, ACCO323",
+        "crosslisted": "ACCO 320 = ACCO 326"
+    },
+    {
+        "ID": "000053",
+        "title": "Cost and Management Accounting",
+        "subject": "ACCO",
+        "catalog": " 330",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO303; Never Taken: ACCO430, ACCO470A You must complete 1 of the following rules   Course Prerequisite: ACCO218, COMM305, ACCO240",
+        "crosslisted": "ACCO 303 = ACCO 330"
+    },
+    {
+        "ID": "000055",
+        "title": "Income Taxation in Canada",
+        "subject": "ACCO",
+        "catalog": " 340",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO441; Never Taken: ACCO440 You must complete 1 of the following rules   Course Prerequisite: ACCO213, COMM217, ACCO230",
+        "crosslisted": "ACCO 340 = ACCO 441"
+    },
+    {
+        "ID": "000057",
+        "title": "Accounting and Information Technology",
+        "subject": "ACCO",
+        "catalog": " 350",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "Course Prerequisite: One of (ACCO218, COMM305, ACCO240)  One of (COMM226, COMM301) Never Taken: ACCO414",
+        "crosslisted": "ACCO 350 = ACCO 414"
+    },
+    {
+        "ID": "000058",
+        "title": "Analysis of Financial Statements",
+        "subject": "ACCO",
+        "catalog": " 355",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "048544",
+        "title": "Principles of Auditing",
+        "subject": "ACCO",
+        "catalog": " 360",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "Course Prerequisite:  COMM 305. Never Taken ACCO 465",
+        "crosslisted": "ACCO 432/ACCO 450/ACCO 360"
+    },
+    {
+        "ID": "000059",
+        "title": "U.S. Federal Taxation",
+        "subject": "ACCO",
+        "catalog": " 365",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "  You must complete 1 of the following rules   Course Prerequisite: COMM217, ACCO230",
+        "crosslisted": "ACCO 365 = ACCO 470T"
+    },
+    {
+        "ID": "000060",
+        "title": "Accounting Theory",
+        "subject": "ACCO",
+        "catalog": " 400",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO461 You must complete 1 of the following rules   Course Prerequisite: ACCO320, ACCO326",
+        "crosslisted": "ACCO 400 = ACCO 461"
+    },
+    {
+        "ID": "000086",
+        "title": "Financial Reporting III",
+        "subject": "ACCO",
+        "catalog": " 420",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO335; Never Taken: ACCO480 You must complete 1 of the following rules   Course Prerequisite: ACCO320, ACCO326",
+        "crosslisted": "ACCO 335 = ACCO 420"
+    },
+    {
+        "ID": "000089",
+        "title": "FINANCIAL REPORTING IV",
+        "subject": "ACCO",
+        "catalog": " 425",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken: ACCO410 You must complete 1 of the following rules   Course Prerequisite: ACCO320, ACCO326",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000092",
+        "title": "Advanced Management Accounting",
+        "subject": "ACCO",
+        "catalog": " 430",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO422; Never Taken: ACCO435 You must complete 1 of the following rules   Course Prerequisite: ACCO303, ACCO330",
+        "crosslisted": "ACCO 422 = ACCO 430"
+    },
+    {
+        "ID": "000097",
+        "title": "STRAT ACCTNG CASE ANALYSIS",
+        "subject": "ACCO",
+        "catalog": " 435",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Course Prerequisite: ACCO320, ACCO330; Course Corequisite: COMM401",
+        "crosslisted": "ACCO 435 = ACCO 470A"
+    },
+    {
+        "ID": "000098",
+        "title": "Advanced Taxation",
+        "subject": "ACCO",
+        "catalog": " 440",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO442; Never Taken: ACCO490 You must complete 1 of the following rules   Course Prerequisite: ACCO340, ACCO441",
+        "crosslisted": "ACCO 440 = ACCO 442"
+    },
+    {
+        "ID": "000104",
+        "title": "Assurance Services",
+        "subject": "ACCO",
+        "catalog": " 450",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Never Taken/Not Registered: ACCO429, ACCO432; Never Taken: ACCO465, ACCO470D You must complete 1 of the following rules   Course Corequisite: ACCO320, ACCO326",
+        "crosslisted": "ACCO 432/ACCO 450/ACCO 360"
+    },
+    {
+        "ID": "000106",
+        "title": "Fraud Prevention and Investigation",
+        "subject": "ACCO",
+        "catalog": " 455",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "   Course Prerequisite: COMM315 You must complete 1 of the following rules   Course Prerequisite: COMM217, ACCO230",
+        "crosslisted": "ACCO 455 = ACCO 470F"
+    },
+    {
+        "ID": "000109",
+        "title": "Advanced Assurance Services",
+        "subject": "ACCO",
+        "catalog": " 465",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "Course Prerequisite: One of (ACCO 360 or 450) and ACCO 320; Never Taken  ACCO470",
+        "crosslisted": "ACCO 465 = ACCO 470D"
+    },
+    {
+        "ID": "045114",
+        "title": "SPECIAL TOPICS IN ACCOUNTING",
+        "subject": "ACCO",
+        "catalog": " 470",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "046442",
+        "title": "ACCOUNTING SEMINAR",
+        "subject": "ACCO",
+        "catalog": " 471",
+        "career": "UGRD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "048619",
+        "title": "HONOURS SEMINAR IN ACCOUNTANCY",
+        "subject": "ACCO",
+        "catalog": " 495",
+        "career": "UGRD",
+        "classUnit": "6.00",
+        "prerequisites": "Course Prerequisite: ACCO 400 and Enrolment in the honours program",
+        "crosslisted": ""
+    },
+    {
+        "ID": "046443",
+        "title": "SPECIAL SEMINAR/ACCOUNTING",
+        "subject": "ACCO",
+        "catalog": " 590",
+        "career": "GRAD",
+        "classUnit": "1.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "046444",
+        "title": "SPECIAL TOPICS IN ACCO",
+        "subject": "ACCO",
+        "catalog": " 595",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "048720",
+        "title": "TUTORIAL IN FINA REP/PRACTICE",
+        "subject": "ACCO",
+        "catalog": " 600",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Anti-Req ACCO 600",
+        "crosslisted": "ACCO 600 = ACCO 650T"
+    },
+    {
+        "ID": "048720",
+        "title": "TUTORIAL IN FINA REP/PRACTICE",
+        "subject": "ACCO",
+        "catalog": " 600",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Anti-Req ACCO 600",
+        "crosslisted": ""
+    },
+    {
+        "ID": "048817",
+        "title": "TUTORIAL IN FINA REP/COM APP",
+        "subject": "ACCO",
+        "catalog": " 601",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Anti-Req ACCO601",
+        "crosslisted": "ACCO 601 = ACCO 651T"
+    },
+    {
+        "ID": "048824",
+        "title": "TUTORIAL IN BUSINESS ADV SER",
+        "subject": "ACCO",
+        "catalog": " 602",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO652T",
+        "crosslisted": "ACCO 602 = ACCO 652T"
+    },
+    {
+        "ID": "048824",
+        "title": "TUTORIAL IN BUSINESS ADV SER",
+        "subject": "ACCO",
+        "catalog": " 602",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO652T",
+        "crosslisted": ""
+    },
+    {
+        "ID": "048825",
+        "title": "TUTORIAL IN INF SYS/INT.CONT",
+        "subject": "ACCO",
+        "catalog": " 603",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO653T",
+        "crosslisted": "ACCO 603 = ACCO 653T"
+    },
+    {
+        "ID": "048826",
+        "title": "Tutorial in Assurance and Professional Practice",
+        "subject": "ACCO",
+        "catalog": " 604",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO654T",
+        "crosslisted": "ACCO 604 = ACCO 654T"
+    },
+    {
+        "ID": "048827",
+        "title": "Tutorial in Taxation/Decision making",
+        "subject": "ACCO",
+        "catalog": " 605",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO655T",
+        "crosslisted": "ACCO 605 = ACCO 655T"
+    },
+    {
+        "ID": "048828",
+        "title": "Tutorial in Performance Management",
+        "subject": "ACCO",
+        "catalog": " 606",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO 656T",
+        "crosslisted": "ACCO 606 = ACCO 656T"
+    },
+    {
+        "ID": "048829",
+        "title": "Tutorial in Financial Strategies and Decisions",
+        "subject": "ACCO",
+        "catalog": " 607",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO657T",
+        "crosslisted": "ACCO 607 = ACCO 657T"
+    },
+    {
+        "ID": "048830",
+        "title": "Tutorial in Capstone I Seminar",
+        "subject": "ACCO",
+        "catalog": " 608",
+        "career": "GRAD",
+        "classUnit": "2.00",
+        "prerequisites": "Not ACCO658T",
+        "crosslisted": "ACCO 608 = ACCO 658T"
+    },
+    {
+        "ID": "048831",
+        "title": "Tutorial in Capstone II Examination",
+        "subject": "ACCO",
+        "catalog": " 609",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Not ACCO659T",
+        "crosslisted": "ACCO 609 = ACCO 659T"
+    },
+    {
+        "ID": "000173",
+        "title": "BUSINESS ADVISORY SERVICES",
+        "subject": "ACCO",
+        "catalog": " 631",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "040004",
+        "title": "TUT/BSNSS ADVISORY SERVICES",
+        "subject": "ACCO",
+        "catalog": " 631T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000174",
+        "title": "INTEGRATED APPROACH TO AUDIT",
+        "subject": "ACCO",
+        "catalog": " 635",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "   Course Prerequisite: ACCO678, ACCO643; Course Corequisite: ACCO613",
+        "crosslisted": ""
+    },
+    {
+        "ID": "040005",
+        "title": "TUT/INTEGRATED APPRO/AUDIT G",
+        "subject": "ACCO",
+        "catalog": " 635T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "044001",
+        "title": "SP TUTORIAL-INCOME TAXATION",
+        "subject": "ACCO",
+        "catalog": " 643X",
+        "career": "GRAD",
+        "classUnit": "1.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "043001",
+        "title": "FINA REPORTING IN PRACTICE",
+        "subject": "ACCO",
+        "catalog": " 650",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Students who have taken ACCO 612 and ACCO 643 may not take this course for credit",
+        "crosslisted": ""
+    },
+    {
+        "ID": "044002",
+        "title": "TUTORIAL IN FINA REP/PRACTICE",
+        "subject": "ACCO",
+        "catalog": " 650T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": "ACCO 600 = ACCO 650T"
+    },
+    {
+        "ID": "044002",
+        "title": "TUTORIAL IN FINA REP/PRACTICE",
+        "subject": "ACCO",
+        "catalog": " 650T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000178",
+        "title": "FINANCIAL REPORTING:COMP APP",
+        "subject": "ACCO",
+        "catalog": " 651",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "044003",
+        "title": "TUTORIAL IN FINA REP/COM APP",
+        "subject": "ACCO",
+        "catalog": " 651T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "045085",
+        "title": "BUSINESS ADVISORY SERVICES",
+        "subject": "ACCO",
+        "catalog": " 652",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "   Course Prerequisite: ACCO650, ACCO651",
+        "crosslisted": ""
+    },
+    {
+        "ID": "045884",
+        "title": "TUTORIAL IN BUSINESS ADV SER",
+        "subject": "ACCO",
+        "catalog": " 652T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "044004",
+        "title": "INFO SYS/INTERNAL CONTROL",
+        "subject": "ACCO",
+        "catalog": " 653",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "   Course Prerequisite: ACCO650, ACCO651",
+        "crosslisted": ""
+    },
+    {
+        "ID": "045885",
+        "title": "TUTORIAL IN INF SYS/INT.CONT",
+        "subject": "ACCO",
+        "catalog": " 653T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047367",
+        "title": "Assurance and Professional Practice",
+        "subject": "ACCO",
+        "catalog": " 654",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "COURSE PRE-REQ ACCO 652, ACCO 653",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047368",
+        "title": "Tutorial in Assurance and Professional Practice",
+        "subject": "ACCO",
+        "catalog": " 654T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047353",
+        "title": "Taxation and Decision-Making",
+        "subject": "ACCO",
+        "catalog": " 655",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "PRE-REQ ACCO 655",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047354",
+        "title": "Tutorial in Taxation/Decision making",
+        "subject": "ACCO",
+        "catalog": " 655T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047369",
+        "title": "Performance Management",
+        "subject": "ACCO",
+        "catalog": " 656",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "COURSE PREREQ ACCO 652",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047370",
+        "title": "Tutorial in Performance Management",
+        "subject": "ACCO",
+        "catalog": " 656T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047371",
+        "title": "Financial Strategies and Decisions",
+        "subject": "ACCO",
+        "catalog": " 657",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "COURSE PREREQ ACCO 652",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047372",
+        "title": "Tutorial in Financial Strategies and Decisions",
+        "subject": "ACCO",
+        "catalog": " 657T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047360",
+        "title": "Capstone I Seminar",
+        "subject": "ACCO",
+        "catalog": " 658",
+        "career": "GRAD",
+        "classUnit": "2.00",
+        "prerequisites": "Prerequisite: ACCO 650, 651, 652, 653 and two elective courses",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047361",
+        "title": "Tutorial in Capstone I Seminar",
+        "subject": "ACCO",
+        "catalog": " 658T",
+        "career": "GRAD",
+        "classUnit": "2.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047363",
+        "title": "Capstone II Examination Preparation",
+        "subject": "ACCO",
+        "catalog": " 659",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "Co-requisite: ACCO 658",
+        "crosslisted": ""
+    },
+    {
+        "ID": "047364",
+        "title": "Tutorial in Capstone II Examination",
+        "subject": "ACCO",
+        "catalog": " 659T",
+        "career": "GRAD",
+        "classUnit": "4.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000182",
+        "title": "MANAGEMENT ACCOUNTING II",
+        "subject": "ACCO",
+        "catalog": " 672",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000185",
+        "title": "FINAN L ACCO G/REPORT G III",
+        "subject": "ACCO",
+        "catalog": " 681",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000186",
+        "title": "COMPREHENSIVE CASE ANALYSIS",
+        "subject": "ACCO",
+        "catalog": " 682",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000187",
+        "title": "CASE ANALY/INTEG/EXAM PREP",
+        "subject": "ACCO",
+        "catalog": " 685",
+        "career": "GRAD",
+        "classUnit": "6.00",
+        "prerequisites": "You must complete 1 of the following rules  You must complete ALL of the following rules  Course Prerequisite: ACCO613, ACCO631, ACCO635",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000189",
+        "title": "ADV EXAM WRITING TECHNIQUES",
+        "subject": "ACCO",
+        "catalog": " 690B",
+        "career": "GRAD",
+        "classUnit": "1.00",
+        "prerequisites": "",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000190",
+        "title": "SEMINAR-BUSINESS VALUATIONS",
+        "subject": "ACCO",
+        "catalog": " 691",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "Prerequisite: MBA 607 or MBA 642",
+        "crosslisted": ""
+    },
+    {
+        "ID": "048073",
+        "title": "Tax Planning and Decision Making for Managers",
+        "subject": "ACCO",
+        "catalog": " 692",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "ANTI-REQ for ACCO 692",
+        "crosslisted": ""
+    },
+    {
+        "ID": "000191",
+        "title": "SEMINAR IN SPECIAL TOPICS",
+        "subject": "ACCO",
+        "catalog": " 695",
+        "career": "GRAD",
+        "classUnit": "3.00",
+        "prerequisites": "Prerequisite: MBA 607 or MBA 642",
+        "crosslisted": ""
+    }
+]

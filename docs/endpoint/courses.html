@@ -1,0 +1,155 @@
+<h1>Courses Endpoint</h1>
+
+Explanation of the dataset
+
+<br />
+
+<h2>Usage</h2>
+<div class="code">
+    GET /course/{method name}/filter/{parameters}
+</div>
+
+<br />
+<h2>Methods</h2>
+
+<div id="method">
+        <h3 id="title">Course Description</h3>
+    
+        <table id="methodSummary">
+            <tr>
+                <td id="methodSummaryLeftCol"><b>Description</b></td>
+                <td id="right" class="medium-text">List of courses descriptions. Can be filter by Course ID</td>
+            </tr>
+            <tr>
+                <td><b>Paramenters</b></td>
+                <td id="parameters" class="medium-text"> {*} to obtain the full list or a {Course ID}</td>
+            </tr>
+            <tr>
+                <td><b>Call</b></td>
+                <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/description/filter/{courseID}}</td>
+            </tr>
+            <tr>
+                <td><b>Response</b></td>
+                <td id="respose" class="medium-text"><a href="responses/courses-description.json" target="_blank">courses-description.json</a></td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div id="method">
+            <h3 id="title">Course Catalog</h3>
+        
+            <table id="methodSummary">
+                <tr>
+                    <td id="methodSummaryLeftCol"><b>Description</b></td>
+                    <td id="right" class="medium-text">List of courses. Can be filter by Subject, Catalog or Carreer</td>
+                </tr>
+                <tr>
+                    <td><b>Paramenters</b></td>
+                    <td id="parameters" class="medium-text"> {subject} or {*}/{catalog} or {*}/{carreer} or {*}</td>
+                </tr>
+                <tr>
+                    <td><b>Call</b></td>
+                    <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/catalog/filter/{subject}/{catalog}/{carreer}</td>
+                </tr>
+                <tr>
+                    <td><b>Response</b></td>
+                    <td id="respose" class="medium-text"><a href="responses/courses-catalogue.json" target="_blank">courses-catalogue.json</a></td>
+                </tr>
+            </table>
+        </div>
+
+        
+    
+        <div id="method">
+                <h3 id="title">Course Section</h3>
+            
+                <table id="methodSummary">
+                    <tr>
+                        <td id="methodSummaryLeftCol"><b>Description</b></td>
+                        <td id="right" class="medium-text">Section details for the courses</td>
+                    </tr>
+                    <tr>
+                        <td><b>Paramenters</b></td>
+                        <td id="parameters" class="medium-text"> {subject} or {*}/{catalog} or {*}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Call</b></td>
+                        <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/section/filter/{subject}/{catalog}</td>
+                    </tr>
+                    <tr>
+                        <td><b>Response</b></td>
+                        <td id="respose" class="medium-text"><a href="responses/courses-section.json" target="_blank">courses-section.json</a></td>
+                    </tr>
+                </table>
+            </div>
+
+    
+            <div id="method">
+                    <h3 id="title">Course Schedule</h3>
+                
+                    <table id="methodSummary">
+                        <tr>
+                            <td id="methodSummaryLeftCol"><b>Description</b></td>
+                            <td id="right" class="medium-text">Schedule details for the courses</td>
+                        </tr>
+                        <tr>
+                            <td><b>Paramenters</b></td>
+                            <td id="parameters" class="medium-text"> {course id} or {*} / {subject} or {*} / {catalog} or {*}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Call</b></td>
+                            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/schedule/filter/{courseid}/{subject}/{catalog}</td>
+                        </tr>
+                        <tr>
+                            <td><b>Response</b></td>
+                            <td id="respose" class="medium-text"><a href="responses/courses-schedule.json" target="_blank">courses-schedule.json</a></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="method">
+                        <h3 id="title">Course Sessions</h3>
+                    
+                        <table id="methodSummary">
+                            <tr>
+                                <td id="methodSummaryLeftCol"><b>Description</b></td>
+                                <td id="right" class="medium-text">Session details for the courses</td>
+                            </tr>
+                            <tr>
+                                <td><b>Paramenters</b></td>
+                                <td id="parameters" class="medium-text"> {career} or {*} / {termcode} or {*} / {sessioncode} or {*}</td>
+                            </tr>
+                            <tr>
+                                <td><b>Call</b></td>
+                                <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/session/filter/{career}/{termcode}/{sessioncode}</td>
+                            </tr>
+                            <tr>
+                                <td><b>Response</b></td>
+                                <td id="respose" class="medium-text"><a href="responses/courses-session.json" target="_blank">courses-session.json</a></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div id="method">
+                            <h3 id="title">Course Faculty</h3>
+                        
+                            <table id="methodSummary">
+                                <tr>
+                                    <td id="methodSummaryLeftCol"><b>Description</b></td>
+                                    <td id="right" class="medium-text">Faculty and department information</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Paramenters</b></td>
+                                    <td id="parameters" class="medium-text"> {facultycode} or {*} / {departmentcode} or {*} </td>
+                                </tr>
+                                <tr>
+                                    <td><b>Call</b></td>
+                                    <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/faculty/filter/{facultycode}/{departmentcode}</td>
+                                </tr>
+                                <tr>
+                                    <td><b>Response</b></td>
+                                    <td id="respose" class="medium-text"><a href="responses/courses-faculty.json" target="_blank">courses-faculty.json</a></td>
+                                </tr>
+                            </table>
+                        </div>

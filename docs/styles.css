@@ -90,15 +90,16 @@ body {
 	margin-bottom: 20px;
 }
 
-#sectionTitleInner{
-	width: 70%;
-   display: inline-block;
-	text-align: left;
+#sectionTitleInner {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
 	color: #fff;
-	text-transform: uppercase;
-	padding-left: 80px;
-
+	margin-bottom: 20px;
+	margin-top: 0px;
+	padding: 10px;
 }
+
 
 #header {
 	margin-top: 0px;
@@ -283,6 +284,7 @@ body {
 	border: #ddd solid 1px;
 	padding: 20px;
 	width: 90%;
+	background: #fff;
 }
 
 

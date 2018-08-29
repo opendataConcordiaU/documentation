@@ -5,4 +5,4 @@ Blurb here
 # API documentation 
 [Visit the github pages website](https://opendataconcordiau.github.io/documentation/)
 
-# Lincence
+# Licence

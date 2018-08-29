@@ -1,0 +1,362 @@
+[
+    {
+        "career": "GRAD",
+        "termCode": "2141",
+        "termDescription": "Summer 2014",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "07/05/2014",
+        "sessionEndDate": "19/08/2014"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2142",
+        "termDescription": "Fall 2014",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/09/2014",
+        "sessionEndDate": "01/12/2014"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2144",
+        "termDescription": "Winter 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "07/01/2015",
+        "sessionEndDate": "14/04/2015"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2151",
+        "termDescription": "Summer 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "04/05/2015",
+        "sessionEndDate": "12/08/2015"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2152",
+        "termDescription": "Fall 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "08/09/2015",
+        "sessionEndDate": "07/12/2015"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2154",
+        "termDescription": "Winter 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "06/01/2016",
+        "sessionEndDate": "12/04/2016"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2161",
+        "termDescription": "Summer 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/05/2016",
+        "sessionEndDate": "09/08/2016"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2162",
+        "termDescription": "Fall 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "06/09/2016",
+        "sessionEndDate": "05/12/2016"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2164",
+        "termDescription": "Winter 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "09/01/2017",
+        "sessionEndDate": "13/04/2017"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2171",
+        "termDescription": "Summer 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "03/05/2017",
+        "sessionEndDate": "09/08/2017"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2172",
+        "termDescription": "Fall 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "05/09/2017",
+        "sessionEndDate": "04/12/2017"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2174",
+        "termDescription": "Winter 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "08/01/2018",
+        "sessionEndDate": "16/04/2018"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2181",
+        "termDescription": "Summer 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/05/2018",
+        "sessionEndDate": "13/08/2018"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2182",
+        "termDescription": "Fall 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "04/09/2018",
+        "sessionEndDate": "03/12/2018"
+    },
+    {
+        "career": "GRAD",
+        "termCode": "2184",
+        "termDescription": "Winter 2019",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "07/01/2019",
+        "sessionEndDate": "13/04/2019"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2151",
+        "termDescription": "Summer 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "04/05/2015",
+        "sessionEndDate": "22/08/2015"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2152",
+        "termDescription": "Fall 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "12/08/2015",
+        "sessionEndDate": "22/12/2015"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2154",
+        "termDescription": "Winter 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "10/12/2015",
+        "sessionEndDate": "07/05/2016"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2161",
+        "termDescription": "Summer 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/05/2016",
+        "sessionEndDate": "05/09/2016"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2162",
+        "termDescription": "Fall 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "16/08/2016",
+        "sessionEndDate": "21/12/2016"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2164",
+        "termDescription": "Winter 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "06/12/2016",
+        "sessionEndDate": "02/05/2017"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2171",
+        "termDescription": "Summer 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "03/05/2017",
+        "sessionEndDate": "01/09/2017"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2172",
+        "termDescription": "Fall 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "31/08/2017",
+        "sessionEndDate": "22/12/2017"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2174",
+        "termDescription": "Winter 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "08/01/2018",
+        "sessionEndDate": "01/05/2018"
+    },
+    {
+        "career": "PDEV",
+        "termCode": "2181",
+        "termDescription": "Summer 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "01/05/2018",
+        "sessionEndDate": "31/08/2018"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2141",
+        "termDescription": "Summer 2014",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "07/05/2014",
+        "sessionEndDate": "19/08/2014"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2142",
+        "termDescription": "Fall 2014",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/09/2014",
+        "sessionEndDate": "01/12/2014"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2144",
+        "termDescription": "Winter 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "07/01/2015",
+        "sessionEndDate": "14/04/2015"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2151",
+        "termDescription": "Summer 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "04/05/2015",
+        "sessionEndDate": "12/08/2015"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2152",
+        "termDescription": "Fall 2015",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "08/09/2015",
+        "sessionEndDate": "07/12/2015"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2154",
+        "termDescription": "Winter 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "06/01/2016",
+        "sessionEndDate": "12/04/2016"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2161",
+        "termDescription": "Summer 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/05/2016",
+        "sessionEndDate": "09/08/2016"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2162",
+        "termDescription": "Fall 2016",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "06/09/2016",
+        "sessionEndDate": "05/12/2016"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2164",
+        "termDescription": "Winter 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "09/01/2017",
+        "sessionEndDate": "13/04/2017"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2171",
+        "termDescription": "Summer 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "03/05/2017",
+        "sessionEndDate": "09/08/2017"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2172",
+        "termDescription": "Fall 2017",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "05/09/2017",
+        "sessionEndDate": "04/12/2017"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2174",
+        "termDescription": "Winter 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "08/01/2018",
+        "sessionEndDate": "16/04/2018"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2181",
+        "termDescription": "Summer 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "02/05/2018",
+        "sessionEndDate": "13/08/2018"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2182",
+        "termDescription": "Fall 2018",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "04/09/2018",
+        "sessionEndDate": "03/12/2018"
+    },
+    {
+        "career": "UGRD",
+        "termCode": "2184",
+        "termDescription": "Winter 2019",
+        "sessionCode": "13W",
+        "sessionDescription": "13 week",
+        "sessionBeginDate": "07/01/2019",
+        "sessionEndDate": "13/04/2019"
+    }
+]

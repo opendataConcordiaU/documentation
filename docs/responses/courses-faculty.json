@@ -1,0 +1,578 @@
+[
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "ANDRAGOGY",
+        "deparmentDescription": "Andragogy"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "APPHUMSC",
+        "deparmentDescription": "Applied Human Sciences"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "APPSOCSC",
+        "deparmentDescription": "Applied Social Science"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "BDISCPGM",
+        "deparmentDescription": "Bi-Discipline Programme"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "BIOLOGY",
+        "deparmentDescription": "Biology"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "CHEMBIOCHM",
+        "deparmentDescription": "Chemistry and Biochemistry"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "CLASSICS",
+        "deparmentDescription": "Classics"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "CLASSMLL",
+        "deparmentDescription": "Classics, Mod Lang&Linguistics"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "COMMPUBA",
+        "deparmentDescription": "School of Community&Public Affairs"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "COMMSTUD",
+        "deparmentDescription": "Communication Studies"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "ECONOMICS",
+        "deparmentDescription": "Economics"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "EDUCATION",
+        "deparmentDescription": "Education"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "ENGLISH",
+        "deparmentDescription": "English"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "ETUDFRANC",
+        "deparmentDescription": "Etudes Francaises"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "EXERCISSC",
+        "deparmentDescription": "Exercise Science"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "GEOGPLEN",
+        "deparmentDescription": "Geography, Planning & Environmt"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "GEOLOGY",
+        "deparmentDescription": "Geology"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "HEALTHEDU",
+        "deparmentDescription": "Health Education"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "HISTORY",
+        "deparmentDescription": "History"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "INTERSTUD",
+        "deparmentDescription": "Interdisciplinary Studies"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "IRISHSTUD",
+        "deparmentDescription": "School of Irish Studies"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "JOURNALISM",
+        "deparmentDescription": "Journalism"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "LEISUREST",
+        "deparmentDescription": "Leisure Studies"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "LIBARTCO",
+        "deparmentDescription": "Liberal Arts College"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "LIBRYSTUD",
+        "deparmentDescription": "Library Studies"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "LONERGAN",
+        "deparmentDescription": "Lonergan University College"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "LOYOLACOL",
+        "deparmentDescription": "LC Diversity & Sustainability"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "MATHSTAT",
+        "deparmentDescription": "Mathematics and Statistics"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "PHILOSOPHY",
+        "deparmentDescription": "Philosophy"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "PHYSICS",
+        "deparmentDescription": "Physics"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "POLISCI",
+        "deparmentDescription": "Political Science"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "PSYCHOLOGY",
+        "deparmentDescription": "Psychology"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "RELIGION",
+        "deparmentDescription": "Religions and Cultures"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "SCIENCECO",
+        "deparmentDescription": "Science College"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "SIMONEBEA",
+        "deparmentDescription": "Simone deBeauvoir Inst&Wom Std"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "SOCIANTH",
+        "deparmentDescription": "Sociology and Anthropology"
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "TESL",
+        "deparmentDescription": "T.E.S.L."
+    },
+    {
+        "facultyCode": "AS",
+        "facultyDescription": "Faculty of Arts & Science",
+        "deparmentCode": "THEOLSTUD",
+        "deparmentDescription": "Theological Studies"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEBA",
+        "deparmentDescription": "Business Administration"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CECA",
+        "deparmentDescription": "Communications Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CECI",
+        "deparmentDescription": "Computer Institute"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEEN",
+        "deparmentDescription": "Intensive English Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEEP",
+        "deparmentDescription": "Non-Intensive English Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEFR",
+        "deparmentDescription": "French Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEGRP_ESL",
+        "deparmentDescription": "CCE - English Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEPH",
+        "deparmentDescription": "Photography Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CESK",
+        "deparmentDescription": "Study Skills Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CESP",
+        "deparmentDescription": "Spanish Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CETO",
+        "deparmentDescription": "Tourism Department"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_BA",
+        "deparmentDescription": "Web Department - Business"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_CAPR",
+        "deparmentDescription": "CCE Web Department - Communication & PR"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_CI",
+        "deparmentDescription": "CCE Web Department - Computer Institute"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_LI",
+        "deparmentDescription": "CCE Web Department - Language Institute"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_PDEV",
+        "deparmentDescription": "CCE Web Department - Professional Development"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_PERD",
+        "deparmentDescription": "CCE Web Department - Personal Development"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEWEB_PH",
+        "deparmentDescription": "CCE Web Department - Photography"
+    },
+    {
+        "facultyCode": "CCE",
+        "facultyDescription": "The Centre for Continuing Education",
+        "deparmentCode": "CEXX",
+        "deparmentDescription": "CCE Corporate Training"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "BCEE",
+        "deparmentDescription": "Building Civil & Environ Engineering"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "BLDGSTUD",
+        "deparmentDescription": "Building Studies"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "CENTENGIN",
+        "deparmentDescription": "Centre for Engineer in Society"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "CHEMATTIND",
+        "deparmentDescription": "Chemical and Materials Engineering"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "CIISE",
+        "deparmentDescription": "Concordia Institute for Information Systems Engrg"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "CIVILENGN",
+        "deparmentDescription": "Civil Engineering"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "COMPSOEN",
+        "deparmentDescription": "Computer Science & Software Engineering"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "ELECCOEN",
+        "deparmentDescription": "Electrical and Computer Engineering"
+    },
+    {
+        "facultyCode": "ENCS",
+        "facultyDescription": "Faculty of Engineering & Computer Science",
+        "deparmentCode": "MECHINDUS",
+        "deparmentDescription": "Mechanical, Industrial and Aerospace Engineering"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "ARTEDUCAT",
+        "deparmentDescription": "Art Education"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "ARTEDUCT",
+        "deparmentDescription": "Art Education & Art Therapy"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "ARTHIST",
+        "deparmentDescription": "Art History"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "CINEMA",
+        "deparmentDescription": "Cinema"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "CONTDANCE",
+        "deparmentDescription": "Contemporary Dance"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "CREATARTS",
+        "deparmentDescription": "Creative Arts Therapies"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "DESGCART",
+        "deparmentDescription": "Design and Computation Arts"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "FINEARTS",
+        "deparmentDescription": "Fine Arts"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "MUSIC",
+        "deparmentDescription": "Music"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "PAINTDRAW",
+        "deparmentDescription": "Painting and Drawing"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "PRINTPHOT",
+        "deparmentDescription": "Printmaking and Photography"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "SCULPTCER",
+        "deparmentDescription": "Sculpture, Ceramics & Fibres"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "STUDART1",
+        "deparmentDescription": "Studio Art I"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "STUDART2",
+        "deparmentDescription": "Studio Art II"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "STUDIOART",
+        "deparmentDescription": "Studio Arts"
+    },
+    {
+        "facultyCode": "FA",
+        "facultyDescription": "Faculty of Fine Arts",
+        "deparmentCode": "THEATRE",
+        "deparmentDescription": "Theatre"
+    },
+    {
+        "facultyCode": "JMEC",
+        "facultyDescription": "John Molson Executive Centre",
+        "deparmentCode": "JMEC",
+        "deparmentDescription": "John Molson Executive Centre"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "ACCOUNTNCY",
+        "deparmentDescription": "Accountancy"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "AMBA",
+        "deparmentDescription": "Aviation MBA"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "DESCMIS",
+        "deparmentDescription": "Supply Chain And Business Technology Management"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "ECONJMSB",
+        "deparmentDescription": "Economics - JMSB"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "EMBA",
+        "deparmentDescription": "Executive MBA"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "FINANCE",
+        "deparmentDescription": "Finance"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "GENADMIN",
+        "deparmentDescription": "General Administration"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "INTLBUSIN",
+        "deparmentDescription": "International Business"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "INVESTMGT",
+        "deparmentDescription": "Goodman Inst - Investment Managment"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "MANAGEMENT",
+        "deparmentDescription": "Management"
+    },
+    {
+        "facultyCode": "JMSB",
+        "facultyDescription": "John Molson School of Business",
+        "deparmentCode": "MARKETING",
+        "deparmentDescription": "Marketing"
+    },
+    {
+        "facultyCode": "SGS",
+        "facultyDescription": "School of Graduate Studies",
+        "deparmentCode": "GPS",
+        "deparmentDescription": "Graduate and Professional Skills"
+    },
+    {
+        "facultyCode": "SGS",
+        "facultyDescription": "School of Graduate Studies",
+        "deparmentCode": "SGSP",
+        "deparmentDescription": "School of Graduate Studies"
+    }
+]
