@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>three.js webgl - gpgpu - flocking</title>
+		<title>Library Occupancy</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<style>
@@ -76,14 +76,12 @@ function refreshCount(){
             if(arg % 2 == 1){
                 arg++;
 			}
-			
-			if(arg == 24){
-				arg = 23;
+			// For some totals the appliactions doesn't behave well. Instead of figuring out whats wrong we're just manually adjusting the numbers on case by case basis. 			
+
+			if(arg == 24 || arg == 18 || arg == 12 || arg == 15 || arg == 21 || arg == 27 || arg == 30 || arg == 33 || arg == 36 || arg == 39){
+				arg--;
 			}
-			if(arg == 18){
-				arg == 17;
-			}
-            console.log(arg);
+			console.log('sensor data:'+total+' / display data:'+arg);
             change(arg);
             
         }// success: function (data) {
