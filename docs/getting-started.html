@@ -1,0 +1,52 @@
+<div>
+    <h1>Getting Started</h1>
+
+    <h4>Get Your API Key</h4>
+
+    <p>
+        Before starting to use the API, you need to register for a developer key. This is free and takes very little time, all you need is a valid email address. After creating the account, you will need to create an application. To do so, once logged in the account management module. Go to My Applications-
+
+    Create. 
+This is a necessary step because usage quotas on the API are tied to individual applications and not users.
+    </p>
+
+    <p>
+        After the application is created, click on it to change the title and add an optional description. This screen will also show the credentials necessary to use the API.
+    </p>
+
+    <h4>Authentication</h4>
+
+    The API use basic authentication over https. Here is example of a cURL call in PHP
+
+    <div style="background-color:#ccc; width:80%">
+        <pre><code class="php">
+            $curl = curl_init();
+        
+            curl_setopt_array($curl, array(
+            CURLOPT_URL =   $url,
+            CURLOPT_RETURNTRANSFER =    true,
+            CURLOPT_ENCODING =    "",
+            CURLOPT_MAXREDIRS =    10,
+            CURLOPT_TIMEOUT =    30,
+            CURLOPT_HTTP_VERSION =   CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST =    "GET",
+            CURLOPT_SSL_VERIFYHOST =    0,
+            CURLOPT_SSL_VERIFYPEER =    0,
+            CURLOPT_HEADER =    0,
+            CURLOPT_USERPWD =    $USER . ":" . $KEY
+            // Replace $user and $key with the values generated in the account management module
+            ));
+        
+            $response = curl_exec($curl);
+        </code>
+        </pre>
+    </div>
+
+    <h4>Quotas</h4>
+
+    Initially we have set a limit of 10.000 calls per application per day. After the quota is reached, the API will fail to authenticate application. If you need more quota please contact us at opendata@concordia.ca
+
+    <h4>Examples and Wrappers</h4>
+
+    Our github repository contains some examples and API wrappers written in different languages that we hope will grow with the contribution of our community. If you like to contribute please contact us by email.
+</div>
