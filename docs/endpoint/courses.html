@@ -30,6 +30,14 @@
                 <td><b>Call</b></td>
                 <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/description/filter/{courseID}}</td>
             </tr>
+
+            <tr>
+                <td><b>Example Call</b></td>
+                <td id="example" class="medium-text">
+                        [Description of course 000106]  https://opendata.concordia.ca/API/v1/course/description/filter/000106 <br />
+                </td>
+            </tr>
+
             <tr>
                 <td><b>Response</b></td>
                 <td id="respose" class="medium-text"><a href="responses/courses-description.json" target="_blank">courses-description.json</a></td>
@@ -53,6 +61,13 @@
                 <tr>
                     <td><b>Call</b></td>
                     <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/catalog/filter/{subject}/{catalog}/{carreer}</td>
+                </tr>
+
+                <tr>
+                    <td><b>Example Call</b></td>
+                    <td id="example" class="medium-text">
+                          [All Biology Courses]  https://opendata.concordia.ca/API/v1/course/catalog/filter/*/BIOL/*      <br />
+                    </td>
                 </tr>
                 <tr>
                     <td><b>Response</b></td>
@@ -79,6 +94,14 @@
                         <td><b>Call</b></td>
                         <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/section/filter/{subject}/{catalog}</td>
                     </tr>
+
+                    <tr>
+                        <td><b>Example Call</b></td>
+                        <td id="example" class="medium-text">
+                            [Section details for all PHYS Courses]  https://opendata.concordia.ca/API/v1/course/section/filter/PHYS/*      <br />
+                        </td>
+                    </tr>
+
                     <tr>
                         <td><b>Response</b></td>
                         <td id="respose" class="medium-text"><a href="responses/courses-section.json" target="_blank">courses-section.json</a></td>
@@ -103,6 +126,14 @@
                             <td><b>Call</b></td>
                             <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/schedule/filter/{courseid}/{subject}/{catalog}</td>
                         </tr>
+
+                        <tr>
+                            <td><b>Example Call</b></td>
+                            <td id="example" class="medium-text">
+                                [Schedule details for all BIOL Courses]  https://opendata.concordia.ca/API/v1/course/schedule/filter/*/BIOL/*      <br />
+                            </td>
+                        </tr>
+
                         <tr>
                             <td><b>Response</b></td>
                             <td id="respose" class="medium-text"><a href="responses/courses-schedule.json" target="_blank">courses-schedule.json</a></td>
@@ -126,6 +157,14 @@
                                 <td><b>Call</b></td>
                                 <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/session/filter/{career}/{termcode}/{sessioncode}</td>
                             </tr>
+
+                            <tr>
+                                <td><b>Example Call</b></td>
+                                <td id="example" class="medium-text">
+                                    [Session details for session code 13W]  https://opendata.concordia.ca/API/v1/course/session/filter/*/*/13W      <br />
+                                </td>
+                            </tr>
+                            
                             <tr>
                                 <td><b>Response</b></td>
                                 <td id="respose" class="medium-text"><a href="responses/courses-session.json" target="_blank">courses-session.json</a></td>
@@ -149,6 +188,14 @@
                                     <td><b>Call</b></td>
                                     <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/faculty/filter/{facultycode}/{departmentcode}</td>
                                 </tr>
+
+                                <tr>
+                                    <td><b>Example Call</b></td>
+                                    <td id="example" class="medium-text">
+                                        [Details on all faculties and departements]  https://opendata.concordia.ca/API/v1/course/faculty/filter/*/*      <br />
+                                    </td>
+                                </tr>
+
                                 <tr>
                                     <td><b>Response</b></td>
                                     <td id="respose" class="medium-text"><a href="responses/courses-faculty.json" target="_blank">courses-faculty.json</a></td>

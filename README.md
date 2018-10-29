@@ -2,7 +2,7 @@
 
 Technology has allowed Concordia to collect large amounts of data and information on a variety of topics, which the university feels should be accessible to all. Concordia’s Open Data Hub makes machine-readable data easy to access from a single point and free to reuse without copyright, patents or other restrictions.
 
-Want to request a new data set? Interested in submitting your own dataset? Want to submit a project? Contact [opendata@concordia.ca](mailto:opendata@concordia.ca)
+Want to request a new data set? Interested in submitting your own dataset? Want to submit a project? Contact [help@concordia.ca](mailto:help@concordia.ca)
 
 ## Get Started
 
