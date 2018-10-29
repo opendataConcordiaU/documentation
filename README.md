@@ -8,7 +8,7 @@ Want to request a new data set? Interested in submitting your own dataset? Want 
 
 1. Make sure you’ve read and understood the [Terms and Conditions](https://creativecommons.org/licenses/by/4.0/legalcode) 
 
-2. To use the API, [register here](https://open-data-dev.concordia.ca/admin/login.php) and get a free developer key.
+2. To use the API, [register here](https://opendata.concordia.ca/admin/login.php) and get a free developer key.
 
 3. [Visit the github pages website](https://opendataconcordiau.github.io/documentation/) for detailed documention on what's available and how to use the API.
 
