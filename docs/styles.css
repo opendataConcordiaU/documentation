@@ -37,6 +37,21 @@ body {
 	padding-left: 40px;
 	}
 
+	@media only screen and (max-width: 1400px) {
+
+		#innerContainer{
+			margin: auto;  
+			 position: absolute;
+				left:0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+			width: 95%;
+			padding-left: 40px;
+			}
+
+	}
+
 .leftAlign{
 	text-align:left;
 }
