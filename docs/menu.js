@@ -14,6 +14,10 @@ $(document).ready(function(){
 	$("#002-2" ).click(function() {
     	$("#main").load("endpoint/library.html")
 	});
+
+	$("#002-3" ).click(function() {
+    	$("#main").load("endpoint/exle.html")
+	});
 	
 	$("#main").load("getting-started.html")
 

@@ -202,3 +202,52 @@
                                 </tr>
                             </table>
                         </div>
+
+<!-- -----------------------------------------------------------------------------------  -->
+
+<div id="method">
+    <h3 id="title">Experiential Learning</h3>
+    <p>Click <a href='endpoint/data-dictionary-exle.pdf' target='_blank'>here</a> to view the data dictionary </p>
+    <table id="methodSummary">
+        <tr>
+            <td id="methodSummaryLeftCol"><b>Description</b></td>
+            <td id="right" class="medium-text">List of courses descriptions. Can be filter by: Falculty,Department,Program,Degree. And ordering field can be provided as well as an offset and a result limiter</td>
+        </tr>
+        <tr>
+            <td><b>Paramenters</b></td>
+            <td id="parameters" class="medium-text"> 
+                    {*} or {id or ids(separated by '|')} <br />    
+                    {*} or {faculty} <br />
+                    {*} or {department}<br />
+                    {*} or {program}<br />
+                    {*} or {degree}<br />
+                    {*} or {type}<br />
+                    {*} or {level}<br />
+                    {*} or {orderby}<br />
+                    {*} or {offset}<br />
+                    {*} or {count}
+            </td>
+        </tr>
+        <tr>
+            <td><b>Call</b></td>
+            <td id="example" class="medium-text">https://opendata.concordia.ca/API/v1/course/exle/filter/{faculty}/{department}/{program}/{degree}/{type}/{orderby}/{offset}/{count}</td>
+        </tr>
+
+        <tr>
+            <td><b>Example Call</b></td>
+            <td id="example" class="medium-text">
+                [Courses from the Building Engineering program order by title] <br />
+                https://opendata.concordia.ca/API/v1/course/exle/filter/*/*/*/Building Engineering/*/*/*/Title/0/100 <br />
+            </td>
+            <td id="example" class="medium-text">
+                [Courses with ID GCS_12 and GCS_13] <br />
+                https://opendata.concordia.ca/API/v1/course/exle/filter/GCS_12|GCS_13/*/*/*/*/*/*/Title/0/100<br />
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Response</b></td>
+            <td id="respose" class="medium-text"><a href="responses/exle.json" target="_blank">exle.json</a></td>
+        </tr>
+    </table>
+</div>
