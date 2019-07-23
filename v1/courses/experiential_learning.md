@@ -60,10 +60,10 @@ All parameters can be substituted by a wildcard *.
 
 ### Example(s)
 *Courses from the Building Engineering program order by title*
-https://opendata.concordia.ca/API/v1/course/exle/filter/\*/\*/\*/Building%20Engineering/\*/\*/\*/Title/0/100
+https://opendata.concordia.ca/API/v1/course/exle/filter/*/*/*/Building%20Engineering/*/*/*/Title/0/100
 
 *Courses with ID GCS_12 or GCS_522*
-https://opendata.concordia.ca/API/v1/course/exle/filter/GCS_12|GCS_522/\*/\*/\*/\*/\*/\*/Title/0/100
+https://opendata.concordia.ca/API/v1/course/exle/filter/GCS_12|GCS_522/*/*/*/*/*/*/Title/0/100
 
 ## Response
 <table>
