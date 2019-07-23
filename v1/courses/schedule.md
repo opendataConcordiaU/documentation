@@ -1,6 +1,6 @@
 ### [Home](../../README.md) > Courses > Schedule
 
-# Experiential Learning
+# Course Schedule
 
 
 ## Description
