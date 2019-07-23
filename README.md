@@ -1,4 +1,5 @@
 # Concordia University Open Data API
+Technology has allowed Concordia to collect large amounts of data and information on a variety of topics, which the university feels should be accessible to all. Concordia’s open data makes machine-readable data easy to access from a single point and free to reuse without copyright, patents or other restrictions.
 
 ## Recent Changes
 * July 2019 - Ported documentation to markdown
