@@ -41,6 +41,7 @@ class ODCU_courses{
     function getDescription($cid){
         $url = $this->baseURL."description/filter/$cid";
         $result = $this->query($url);
+        return $result;
     }
 }
 
