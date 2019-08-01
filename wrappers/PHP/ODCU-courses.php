@@ -38,8 +38,38 @@ class ODCU_courses{
         }
     } //function query(){
     
-    function getDescription($cid){
+    function getDescriptions($cid){
         $url = $this->baseURL."description/filter/$cid";
+        $result = $this->query($url);
+        return $result;
+    }
+
+    function getCatalog($sub, $cat, $car){
+        $url = $this->baseURL."catalog/filter/$sub/$cat/$car";
+        $result = $this->query($url);
+        return $result;
+    }
+
+    function getSections($sub, $cat){
+        $url = $this->baseURL."section/filter/$sub/$cat";
+        $result = $this->query($url);
+        return $result;
+    }
+
+    function getSchedules($cid, $sub, $cat){
+        $url = $this->baseURL."schedule/filter/$cid/$sub/$cat";
+        $result = $this->query($url);
+        return $result;
+    }
+
+    function getSessions($car, $trm, $shn){
+        $url = $this->baseURL."session/filter/$car/$trm/$shn";
+        $result = $this->query($url);
+        return $result;
+    }
+
+    function getFaculties($fac, $dep){
+        $url = $this->baseURL."faculty/filter/$fac/$dep";
         $result = $this->query($url);
         return $result;
     }
@@ -53,7 +83,7 @@ if(isset($_GET['action'])){
     switch ($_GET['action']){
         case 'description':
             if(isset($_GET['cid'])){
-                echo $endpoint->getDescription($_GET['cid']);
+                echo $endpoint->getDescriptions($_GET['cid']);
             }
             break;
     }
