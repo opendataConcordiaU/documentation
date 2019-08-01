@@ -113,7 +113,7 @@ if(isset($_GET['action'])){
 
         case 'faculty':
              if(isset($_GET['fac']) and isset($_GET['dep'])){
-                echo $endpoint->getFaculties($_GET['fac'], $_GET('dep'));
+                echo $endpoint->getFaculties($_GET['fac'], $_GET['dep']);
             }
             break;    
     }
