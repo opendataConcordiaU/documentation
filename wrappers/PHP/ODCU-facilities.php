@@ -45,25 +45,21 @@ class ODCU_facilities{
     }
 
     function environmental($start, $end){
-        if($start != '' and $end != ''){
-            $start = str_replace(" ", "%20", $start);
-            $end = str_replace(" ", "%20", $end);
-            $url = $this->baseURL."environmental/filter/$start/$end";
-        }else{
-            $url = $this->baseURL."environmental/filter/".date("Y-m-d%2000:00:00")."/".date("Y-m-d%20H:i:s");
-        }
+        // ensure spaces are changed to %20 to prevent error 400
+        $start = ($start == '' ? date("Y-m-d%2000:00:00") : str_replace(" ", "%20", $start));
+        $end = ($end == '' ? date("Y-m-d%20H:i:s") : str_replace(" ", "%20", $end));
+        
+        $url = $this->baseURL."consumption/filter/$start/$end";    
         $result = $this->query($url);
         return $result;
     }
 
     function consumption($start, $end){
-        if($start != '' and $end != ''){
-            $start = str_replace(" ", "%20", $start);
-            $end = str_replace(" ", "%20", $end);
-            $url = $this->baseURL."consumption/filter/$start/$end";
-        }else{
-            $url = $this->baseURL."consumption/filter/".date("Y-m-d%2000:00:00")."/".date("Y-m-d%20H:i:s");
-        }
+        // ensure spaces are changed to %20 to prevent error 400
+        $start = ($start == '' ? date("Y-m-d%2000:00:00") : str_replace(" ", "%20", $start));
+        $end = ($end == '' ? date("Y-m-d%20H:i:s") : str_replace(" ", "%20", $end));
+        
+        $url = $this->baseURL."consumption/filter/$start/$end";    
         $result = $this->query($url);
         return $result;
     }
@@ -80,20 +76,19 @@ if(isset($_GET['action'])){
             echo $endpoint->getPointList();
             break;
 
-        case 'environmental':           
-            if(isset($_GET['start']) and isset($_GET['end']) )
-                // TIME must be properly formated YYYY-MM-DD HH:MM:SS no verification made here  
-                echo $endpoint->environmental($_GET['start'], $_GET['end']);
-            else
-                echo $endpoint->environmental('', '');
+        case 'environmental':
+            // TIME must be properly formated YYYY-MM-DD HH:MM:SS no verification made here  
+            $startTime = (isset($_GET['start']) ? $_GET['start'] : '');        
+            $endTime = (isset($_GET['end']) ? $_GET['end'] : '');
+            echo $endpoint->environmental($startTime, $endTime);
             break;
 
         case 'consumption':           
-            if(isset($_GET['start']) and isset($_GET['end']) )
-                // TIME must be properly formated YYYY-MM-DD HH:MM:SS no verification made here  
-                echo $endpoint->consumption($_GET['start'], $_GET['end']);
-            else
-                echo $endpoint->consumption('', '');
+            // TIME must be properly formated YYYY-MM-DD HH:MM:SS no verification made here  
+            $startTime = (isset($_GET['start']) ? $_GET['start'] : '');
+            $endTime = (isset($_GET['end']) ? $_GET['end'] : '');
+
+            echo $endpoint->consumption($startTime, $endTime);
             break;
     }
 }
