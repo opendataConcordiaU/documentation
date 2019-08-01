@@ -46,9 +46,11 @@ class ODCU_facilities{
 
     function environmental($start, $end){
         if($start != '' and $end != ''){
+            $start = str_replace(" ", "%20", $start);
+            $end = str_replace(" ", "%20", $end);
             $url = $this->baseURL."environmental/filter/$start/$end";
         }else{
-            $url = $this->baseURL."environmental/filter/".date("Y-m-d 00:00:00")."/".date("Y-m-d H:i:s");
+            $url = $this->baseURL."environmental/filter/".date("Y-m-d%2000:00:00")."/".date("Y-m-d%20H:i:s");
         }
         $result = $this->query($url);
         return $result;
@@ -56,9 +58,11 @@ class ODCU_facilities{
 
     function consumption($start, $end){
         if($start != '' and $end != ''){
+            $start = str_replace(" ", "%20", $start);
+            $end = str_replace(" ", "%20", $end);
             $url = $this->baseURL."consumption/filter/$start/$end";
         }else{
-            $url = $this->baseURL."consumption/filter/".date("Y-m-d 00:00:00")."/".date("Y-m-d H:i:s");
+            $url = $this->baseURL."consumption/filter/".date("Y-m-d%2000:00:00")."/".date("Y-m-d%20H:i:s");
         }
         $result = $this->query($url);
         return $result;
