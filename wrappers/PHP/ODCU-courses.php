@@ -86,6 +86,36 @@ if(isset($_GET['action'])){
                 echo $endpoint->getDescriptions($_GET['cid']);
             }
             break;
+
+        case 'catalog':
+            if(isset($_GET['sub']) and isset($_GET['cat']) and isset($_GET['car'])){
+                echo $endpoint->getCatalog($_GET['sub'], $_GET['cat'], $_GET['car']);
+            }
+            break;
+
+        case 'section':
+            if(isset($_GET['sub']) and isset($_GET['cat'])){
+                echo $endpoint->getSections($_GET['sub'], $_GET['cat']);
+            }
+            break;
+
+        case 'schedule':
+            if(isset($_GET['cid']) and isset($_GET['sub']) and isset($_GET['cat'])){
+                echo $endpoint->getSchedules($_GET['cid'], $_GET['sub'], $_GET['cat']);
+            }
+            break;
+
+        case 'session':
+            if(isset($_GET['car']) and isset($_GET['trm']) and isset($_GET['shn'])){
+                echo $endpoint->getSessions($_GET['car'], $_GET['trm'], $_GET['shn']);
+            }
+            break;
+
+        case 'faculty':
+             if(isset($_GET['fac']) and isset($_GET['dep'])){
+                echo $endpoint->getFaculties($_GET['fac'], $_GET('dep'));
+            }
+            break;    
     }
 }
 
