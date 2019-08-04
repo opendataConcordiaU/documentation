@@ -5,8 +5,14 @@ key = "YOUR KEY"
 
 endpoints = {
     "pointlist": {"params": []},
-    "environmental": {"params": ["start", "end"], "path": "environmental/filter"},
-    "consumption": {"params": ["start", "end"], "path": "consumption/filter"},
+    "environmental": {
+        "params": ["start as 'YYYY-MM-DD HH:MM:SS'", "end as 'YYYY-MM-DD HH:MM:SS'"],
+        "path": "environmental/filter",
+    },
+    "consumption": {
+        "params": ["start as 'YYYY-MM-DD HH:MM:SS'", "end as 'YYYY-MM-DD HH:MM:SS'"],
+        "path": "consumption/filter",
+    },
 }
 
 
@@ -51,5 +57,7 @@ def makeRequest(endpoint, *args):
 
 if __name__ == "__main__":
     openConnection(user, key)
-    response = makeRequest("pointlist")
+    response = makeRequest(
+        "environmental", "2019-07-01%2012:00:00", "2019-07-02%2012:00:00"
+    )
     print(response)
