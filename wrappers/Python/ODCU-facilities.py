@@ -43,7 +43,7 @@ def validateRequest(endpoint, params):
 def makeRequest(endpoint, *args):
     """Make request and return the response after validation"""
     if validateRequest(endpoint, args):
-        params = "/".join(args)
+        params = "/".join(args).replace(" ", "%20")
         path = (
             endpoints[endpoint]["path"] if "path" in endpoints[endpoint] else endpoint
         )
@@ -58,6 +58,6 @@ def makeRequest(endpoint, *args):
 if __name__ == "__main__":
     openConnection(user, key)
     response = makeRequest(
-        "environmental", "2019-07-01%2012:00:00", "2019-07-02%2012:00:00"
+        "environmental", "2019-07-01 12:00:00", "2019-07-02 12:00:00"
     )
     print(response)
