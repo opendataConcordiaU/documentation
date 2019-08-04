@@ -7,7 +7,7 @@ endpoints = {
     "occupancy": {"params": []},
     "computers": {"params": []},
     "events": {"params": []},
-    "hours": {"params": ["date"]},
+    "hours": {"params": ["date as 'YYYY-MM-DD'"]},
     "room_list": {"params": [], "path": "rooms/getRoomsList"},
     "reservations": {
         "params": ["resourceID", "scheduleID"],
