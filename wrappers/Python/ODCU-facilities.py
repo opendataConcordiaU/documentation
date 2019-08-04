@@ -4,15 +4,9 @@ user = "YOUR USERID"
 key = "YOUR KEY"
 
 endpoints = {
-    "occupancy": {"params": []},
-    "computers": {"params": []},
-    "events": {"params": []},
-    "hours": {"params": ["date"]},
-    "room_list": {"params": [], "path": "rooms/getRoomsList"},
-    "reservations": {
-        "params": ["resourceID", "scheduleID"],
-        "path": "rooms/getRoomReservations",
-    },
+    "pointlist": {"params": []},
+    "environmental": {"params": ["start", "end"], "path": "environmental/filter"},
+    "consumption": {"params": ["start", "end"], "path": "consumption/filter"},
 }
 
 
@@ -47,7 +41,7 @@ def makeRequest(endpoint, *args):
         path = (
             endpoints[endpoint]["path"] if "path" in endpoints[endpoint] else endpoint
         )
-        url = f"https://opendata.concordia.ca/API/v1/library/{path}/{params}"
+        url = f"https://opendata.concordia.ca/API/v1/facilities/{path}/{params}"
         with urllib.request.urlopen(url) as req:
             res = req.read()
         return res
@@ -57,5 +51,5 @@ def makeRequest(endpoint, *args):
 
 if __name__ == "__main__":
     openConnection(user, key)
-    response = makeRequest("reservations", "*", "*")
+    response = makeRequest("pointlist")
     print(response)
