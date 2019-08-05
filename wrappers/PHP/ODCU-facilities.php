@@ -1,5 +1,4 @@
 <?php
-
 class ODCU_facilities{
 
     private $userName = "YOUR USERID";
@@ -49,7 +48,7 @@ class ODCU_facilities{
         $start = ($start == '' ? date("Y-m-d%2000:00:00") : str_replace(" ", "%20", $start));
         $end = ($end == '' ? date("Y-m-d%20H:i:s") : str_replace(" ", "%20", $end));
         
-        $url = $this->baseURL."consumption/filter/$start/$end";    
+        $url = $this->baseURL."environmental/filter/$start/$end";    
         $result = $this->query($url);
         return $result;
     }
