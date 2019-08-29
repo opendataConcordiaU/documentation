@@ -17,7 +17,7 @@ GET facilities/pointlist/
 None
 
 ### Example(s)
-*Obtain the detailed infomration for all sensors and meters on both campuses*<br/>
+*Obtain the detailed information for all sensors and meters on both campuses*<br/>
 https://opendata.concordia.ca/API/v1/facilities/pointlist
 
 ## Response
