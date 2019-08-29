@@ -104,4 +104,4 @@ https://opendata.concordia.ca/API/v1/facilities/pointlist
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/PointList.xlxs
+https://opendata.concordia.ca/datasets/Facilities/POINT_LIST.csv
