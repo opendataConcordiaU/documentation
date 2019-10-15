@@ -18,7 +18,7 @@ None
 
 ### Example(s)
 *Obtain the detailed information for all sensors and meters on both campuses*<br/>
-https://opendata.concordia.ca/API/v1/facilities/pointlist
+https://opendata.concordia.ca/API/v1/facilities/pointlist/
 
 ## Response
 <table>
