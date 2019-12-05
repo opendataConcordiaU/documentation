@@ -2,6 +2,7 @@
 Technology has allowed Concordia to collect large amounts of data and information on a variety of topics, which the university feels should be accessible to all. Concordia’s open data makes machine-readable data easy to access from a single point and free to reuse without copyright, patents or other restrictions.
 
 ## Recent Changes
+* December 2019 - Added buildinglist method to facilities endpoint
 * July 2019 - Ported documentation to markdown
 * July 2019 - New Facilities endpoint
 
@@ -28,6 +29,7 @@ Daily course data export from the Student Information System (SIS) system.
 ### Facilities
 Daily and historical environmental and consumption data obtained from sensors and meters located on both campuses.
 * [/facilities/pointlist](v1/facilities/pointlist.md)
+* [/facilities/buildinglist](v1/facilities/buildinglist.md)
 * [/facilities/consumption](v1/facilities/consumption.md)
 * [/facilities/environmental](v1/facilities/environmental.md)
 
