@@ -90,4 +90,4 @@ https://opendata.concordia.ca/API/v1/facilities/buildinglist/
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/BuildingList.xlxs
+https://opendata.concordia.ca/datasets/Facilities/BUILDING_LIST.csv
