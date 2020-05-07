@@ -45,7 +45,15 @@ https://opendata.concordia.ca/API/v1/course/section/filter/PHYS/226
     <tr>
         <td>term</td>
         <td></td>
-        <td>4 Digit term code.  This is comprised of the 1st, 3rd and 4th digit of the academic year and ends with one of the following : 1 – Summer 2 – Fall 3 – Fall/Winter 4 – Winter  5 – Spring (for CCCE career only) 6 – Summer (for CCCE career only) For example, the code for Fall 2018 = 2182 And the code for Winter 2019 = 2184 (this is because Winter 2019 comes under the 2018 academic year) </td>
+        <td>4 Digit term code.  This is comprised of the 1st, 3rd and 4th digit of the academic year and ends with one of the following :<br><br>
+1 – Summer <br>
+2 – Fall<br>
+3 – Fall/Winter<br>
+4 – Winter <br>
+5 – Spring (for CCCE career only)<br>
+6 – Summer (for CCCE career only)<br><br>
+For example, the code for Fall 2018 = 2182
+And the code for Winter 2019 = 2184 (this is because Winter 2019 comes under the 2018 academic year).</td>
     </tr>
     <tr>
         <td>session</td>
