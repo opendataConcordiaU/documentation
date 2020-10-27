@@ -4,7 +4,7 @@
 
 
 ## Description
-Returns a list with the details of all the invoices or credit notices for waste disposal across the two campuses. Can be used with other endpoint methods, such as the [building list](../buildinglist.md) methos to obtain extended information about the building and its location.
+Returns a list with the details of all the invoices or credit notices from the [Zero Waste Concordia Program](https://www.concordia.ca/about/sustainability/sustainability-initiatives/zero-waste/zero-waste-program.html). Can be used with other endpoint methods, such as the [building list](../buildinglist.md) methods to obtain extended information about the building and its location.
 
 **Data Steward:** Facilities Management, Property Management
 
