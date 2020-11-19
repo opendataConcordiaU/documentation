@@ -1,6 +1,6 @@
-### [Home](../../../README.md) > Facilities > waste > Bin Types
+### [Home](../../../README.md) > Facilities > waste > Bin Type
 
-# Bin Types
+# Bin Type
 
 
 ## Description
@@ -11,14 +11,14 @@ Returns a list of the different types of bins being used as part of the [Zero Wa
 **Update Frequency:** Monthly (manual)
 
 ## Call
-GET facilities/waste/bin_types
+GET facilities/waste/bin_type
 
 ### Parameters
 None
 
 ### Example(s)
 *Obtain the name and description for all the different bin types*<br/>
-https://opendata.concordia.ca/API/v1/facilities/waste/bin_types
+https://opendata.concordia.ca/API/v1/facilities/waste/bin_type
 
 ## Response
 <table>
@@ -55,4 +55,4 @@ https://opendata.concordia.ca/API/v1/facilities/waste/bin_types
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/bin_types.csv
+https://opendata.concordia.ca/datasets/Facilities/bin_type.csv
