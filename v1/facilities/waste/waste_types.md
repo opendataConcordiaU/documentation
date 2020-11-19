@@ -1,6 +1,6 @@
-### [Home](../../../README.md) > Facilities > waste > Waste Types
+### [Home](../../../README.md) > Facilities > waste > Waste Type
 
-# Waste Types
+# Waste Type
 
 
 ## Description
@@ -11,14 +11,14 @@ Returns a list of the different types of waste being disposed of as part of the 
 **Update Frequency:** Monthly (manual)
 
 ## Call
-GET facilities/facilities/waste/waste_types
+GET facilities/facilities/waste/waste_type
 
 ### Parameters
 None
 
 ### Example(s)
 *Obtain the name and description for all the different waste types*<br/>
-https://opendata.concordia.ca/API/v1/facilities/waste/waste_types
+https://opendata.concordia.ca/API/v1/facilities/waste/waste_type
 
 ## Response
 <table>
@@ -55,4 +55,4 @@ https://opendata.concordia.ca/API/v1/facilities/waste/waste_types
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/waste_types.csv
+https://opendata.concordia.ca/datasets/Facilities/waste_type.csv
