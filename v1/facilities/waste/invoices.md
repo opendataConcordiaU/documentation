@@ -27,6 +27,11 @@ All parameters can by substituted by a wildcard *.
     </tr>
     </tr>
         <tr>
+        <td>Waste_Type</td>
+        <td>Name of the type of waste being queried. See Waste_Type method.</td>
+    </tr>
+    </tr>
+        <tr>
         <td>startdate</td>
         <td>Specifies the start date range for the invoices. (YYYY-MM-DD)</td>
     </tr>
@@ -49,7 +54,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         <td><b>Value Description</b></td>
     </tr>
     <tr>
-        <td>Source Type</td>
+        <td>Source_Type</td>
         <td>string</td>
         <td>Type of invoice. (Invoice, Credit Notice)</td>
     </tr>
@@ -59,9 +64,14 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         <td>Two letter code for the building. (EV, GM, SP)</td>
     </tr>
     <tr>
-        <td>Bin Type</td>
+        <td>Bin_Type</td>
         <td>string</td>
-        <td>The type of bin used for the collection. See Bin Types method</td>
+        <td>The type of bin used for the collection. See Bin_Type method</td>
+    </tr>
+    <tr>
+        <td>Waste_Type</td>
+        <td>string</td>
+        <td>The type of waste being disposed of. See Waste_Types method</td>
     </tr>
     <tr>
         <td>Qty</td>
@@ -74,7 +84,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         <td>Weight of the pickup.</td>
     </tr>
     <tr>
-        <td>Cost</td>
+        <td>Total_Cost</td>
         <td>decimal</td>
         <td>Cost or credit associated with the invoice or credit notice. Credit notices are negative.</td>
     </tr> 
@@ -97,6 +107,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         "Source_Type":"",
         "Building":"",
         "Bin_Type":"",
+        "Waste_Type":"",
         "Qty":"",
         "Mass":"",
         "Total_Cost":"",
@@ -107,6 +118,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         "Source_Type":"",
         "Building":"",
         "Bin_Type":"",
+        "Waste_Type":"",
         "Qty":"",
         "Mass":"",
         "Total_Cost":"",
