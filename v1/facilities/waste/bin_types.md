@@ -1,6 +1,6 @@
-### [Home](../../../README.md) > Facilities > waste > Bin Type
+### [Home](../../../README.md) > Facilities > waste > Bin Types
 
-# Bin Type
+# Bin Types
 
 
 ## Description
@@ -11,14 +11,14 @@ Returns a list of the different types of bins being used as part of the [Zero Wa
 **Update Frequency:** Monthly (manual)
 
 ## Call
-GET facilities/waste/bin_type
+GET facilities/waste/bin_types
 
 ### Parameters
 None
 
 ### Example(s)
 *Obtain the name and description for all the different bin types*<br/>
-https://opendata.concordia.ca/API/v1/facilities/waste/bin_type
+https://opendata.concordia.ca/API/v1/facilities/waste/bin_types
 
 ## Response
 <table>
@@ -41,18 +41,17 @@ https://opendata.concordia.ca/API/v1/facilities/waste/bin_type
 
 ## Output
 ```JSON
-[
     {
-        "Bin_Type":"",
-        "Description":""
+        "Bin_Type": "20YD Roll off dry waste",
+        "Description": "Open container for disposal of large, dry materials. Typically includes furniture, construction and renovation waste, and other materials not consumed on an ongoing basis. 20 cubic yard volume approximately."
     },
     {
-        "Bin_Type":"",
-        "Description":""
+        "Bin_Type": "20YD Roll off Concrete",
+        "Description": "Open container for disposal of large, dry materials. Typically from laboratories. 20 cubic yard volume."
     },
 ...
 ]
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/bin_type.csv
+https://opendata.concordia.ca/datasets/Facilities/bin_types.csv
