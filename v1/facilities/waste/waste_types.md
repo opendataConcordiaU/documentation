@@ -1,6 +1,6 @@
-### [Home](../../../README.md) > Facilities > waste > Waste Type
+### [Home](../../../README.md) > Facilities > waste > Waste Types
 
-# Waste Type
+# Waste Types
 
 
 ## Description
@@ -11,14 +11,14 @@ Returns a list of the different types of waste being disposed of as part of the 
 **Update Frequency:** Monthly (manual)
 
 ## Call
-GET facilities/facilities/waste/waste_type
+GET facilities/facilities/waste/waste_types
 
 ### Parameters
 None
 
 ### Example(s)
 *Obtain the name and description for all the different waste types*<br/>
-https://opendata.concordia.ca/API/v1/facilities/waste/waste_type
+https://opendata.concordia.ca/API/v1/facilities/waste/waste_types
 
 ## Response
 <table>
@@ -43,16 +43,16 @@ https://opendata.concordia.ca/API/v1/facilities/waste/waste_type
 ```JSON
 [
     {
-        "Waste_Type":"",
-        "Description":""
+        "Waste_Type":"Organics",
+        "Description":"Food waste, compostable paper products, compostable bioplastics, and green waste sent to composting."
     },
     {
-        "Waste_Type":"",
-        "Description":""
+        "Waste_Type":"Paper",
+        "Description":"Paper and cardboard sent for recycling."
     },
 ...
 ]
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/waste_type.csv
+https://opendata.concordia.ca/datasets/Facilities/waste_types.csv
