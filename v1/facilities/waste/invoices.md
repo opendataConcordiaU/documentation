@@ -27,11 +27,6 @@ All parameters can by substituted by a wildcard *.
     </tr>
     </tr>
         <tr>
-        <td>Waste_Type</td>
-        <td>Name of the type of waste being queried. See Waste_Type method.</td>
-    </tr>
-    </tr>
-        <tr>
         <td>startdate</td>
         <td>Specifies the start date range for the invoices. (YYYY-MM-DD)</td>
     </tr>
@@ -66,12 +61,12 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
     <tr>
         <td>Bin_Type</td>
         <td>string</td>
-        <td>The type of bin used for the collection. See Bin_Type method</td>
+        <td>The type of bin used for the collection. See Bin Types method</td>
     </tr>
     <tr>
         <td>Waste_Type</td>
         <td>string</td>
-        <td>The type of waste being disposed of. See Waste_Types method</td>
+        <td>The type of waste being disposed of. See Waste Types method</td>
     </tr>
     <tr>
         <td>Qty</td>
@@ -91,7 +86,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
     <tr>
         <td>Date</td>
         <td>date</td>
-        <td>Date indicated on the invoice or credit notice.</td>
+        <td>Date indicated on the invoice or credit notice (format: yyyy-MM-dd HH:mm:ss.SSS).</td>
     </tr>
     <tr>
         <td>Source</td>
@@ -104,26 +99,26 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
 ```JSON
 [
     {
-        "Source_Type":"",
-        "Building":"",
-        "Bin_Type":"",
-        "Waste_Type":"",
-        "Qty":"",
-        "Mass":"",
-        "Total_Cost":"",
-        "Date":"",
-        "Source":""
+        "Source_Type": "Invoice",
+        "Building": "EV",
+        "Bin_Type": "42YD Recycling Compactor",
+        "Waste_Type": "Mixed_recycling",
+        "Qty": "1",
+        "Mass": "",
+        "Total_Cost": "$143.72",
+        "Date": "2019-02-16 00:00:00.000",
+        "Source": "M30015364493"
     },
     {
-        "Source_Type":"",
-        "Building":"",
-        "Bin_Type":"",
-        "Waste_Type":"",
-        "Qty":"",
-        "Mass":"",
-        "Total_Cost":"",
-        "Date":"",
-        "Source":""
+        "Source_Type": "Invoice",
+        "Building": "EV",
+        "Bin_Type": "42YD Recycling Compactor",
+        "Waste_Type": "Mixed_recycling",
+        "Qty": "1",
+        "Mass": "",
+        "Total_Cost": "$143.72",
+        "Date": "2019-04-13 00:00:00.000",
+        "Source": "M30015387611"
     },
 ...
 ]
