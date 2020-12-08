@@ -41,6 +41,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/bin_types
 
 ## Output
 ```JSON
+[
     {
         "Bin_Type": "20YD Roll off dry waste",
         "Description": "Open container for disposal of large, dry materials. Typically includes furniture, construction and renovation waste, and other materials not consumed on an ongoing basis. 20 cubic yard volume approximately."
