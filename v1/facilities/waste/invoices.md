@@ -76,7 +76,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
     <tr>
         <td>Mass</td>
         <td>decimal</td>
-        <td>Weight of the pickup.</td>
+        <td>Weight of the pickup in metric tons.</td>
     </tr>
     <tr>
         <td>Total_Cost</td>
@@ -87,11 +87,6 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         <td>Date</td>
         <td>date</td>
         <td>Date indicated on the invoice or credit notice (format: yyyy-MM-dd HH:mm:ss.SSS).</td>
-    </tr>
-    <tr>
-        <td>Source</td>
-        <td>string</td>
-        <td>Document reference number for the invoice or the credit notice.</td>
     </tr>
 </table>
 
@@ -106,8 +101,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         "Qty": "1",
         "Mass": "",
         "Total_Cost": "$143.72",
-        "Date": "2019-02-16 00:00:00.000",
-        "Source": "M30015364493"
+        "Date": "2019-02-16 00:00:00.000"
     },
     {
         "Source_Type": "Invoice",
@@ -117,8 +111,7 @@ https://opendata.concordia.ca/API/v1/facilities/waste/invoices/filter/EV/2019-02
         "Qty": "1",
         "Mass": "",
         "Total_Cost": "$143.72",
-        "Date": "2019-04-13 00:00:00.000",
-        "Source": "M30015387611"
+        "Date": "2019-04-13 00:00:00.000"
     },
 ...
 ]
