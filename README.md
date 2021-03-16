@@ -2,6 +2,7 @@
 Technology has allowed Concordia to collect large amounts of data and information on a variety of topics, which the university feels should be accessible to all. Concordia’s open data makes machine-readable data easy to access from a single point and free to reuse without copyright, patents or other restrictions.
 
 ## Recent Changes
+* March 2021 - Added waste methods waste_types, bin_types, and invoices to facilities endpoint
 * December 2019 - Added buildinglist method to facilities endpoint
 * July 2019 - Ported documentation to markdown
 * July 2019 - New Facilities endpoint
@@ -32,6 +33,9 @@ Daily and historical environmental and consumption data obtained from sensors an
 * [/facilities/buildinglist](v1/facilities/buildinglist.md)
 * [/facilities/consumption](v1/facilities/consumption.md)
 * [/facilities/environmental](v1/facilities/environmental.md)
+* [/facilities/waste/waste_types](v1/facilities/waste/waste_types.md)
+* [/facilities/waste/bin_types](v1/facilities/waste/bin_types.md)
+* [/facilities/waste/invoices](v1/facilities/waste/invoices.md)
 
 ### Library
 Live data on the current status of some of the Library services and events.
