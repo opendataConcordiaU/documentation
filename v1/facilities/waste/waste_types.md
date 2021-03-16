@@ -1,4 +1,4 @@
-### [Home](../../../README.md) > Facilities > waste > Waste Types
+### [Home](../../../README.md) > Facilities > Waste > Waste Types
 
 # Waste Types
 
