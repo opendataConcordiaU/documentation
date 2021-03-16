@@ -1,4 +1,4 @@
-### [Home](../../../README.md) > Facilities > waste > Bin Types
+### [Home](../../../README.md) > Facilities > Waste > Bin Types
 
 # Bin Types
 
