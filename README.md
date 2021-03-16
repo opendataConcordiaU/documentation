@@ -33,6 +33,8 @@ Daily and historical environmental and consumption data obtained from sensors an
 * [/facilities/buildinglist](v1/facilities/buildinglist.md)
 * [/facilities/consumption](v1/facilities/consumption.md)
 * [/facilities/environmental](v1/facilities/environmental.md)
+
+Data pertaining to Concordia's Zero Waste Program
 * [/facilities/waste/waste_types](v1/facilities/waste/waste_types.md)
 * [/facilities/waste/bin_types](v1/facilities/waste/bin_types.md)
 * [/facilities/waste/invoices](v1/facilities/waste/invoices.md)
