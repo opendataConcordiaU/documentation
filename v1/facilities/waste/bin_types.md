@@ -55,4 +55,4 @@ https://opendata.concordia.ca/API/v1/facilities/waste/bin_types
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/bin_types.csv
+https://opendata.concordia.ca/datasets/Facilities/WASTE_BIN_TYPE.csv
