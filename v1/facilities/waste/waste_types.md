@@ -55,4 +55,4 @@ https://opendata.concordia.ca/API/v1/facilities/waste/waste_types
 ```
 
 ## Raw Data
-https://opendata.concordia.ca/datasets/Facilities/waste_types.csv
+https://opendata.concordia.ca/datasets/Facilities/WASTE_TYPE.csv
