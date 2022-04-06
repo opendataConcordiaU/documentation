@@ -39,7 +39,7 @@ All parameters can by substituted by a wildcard *.
 ### Example(s)
 *Obtain the catalog information for all BIOL courses.*
 
-https://opendata.concordia.ca/API/v1/course/catalog/filter/BIOL/*/*
+<https://opendata.concordia.ca/API/v1/course/catalog/filter/BIOL/*/*>
 
 ## Response
 <table>

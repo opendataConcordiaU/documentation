@@ -33,7 +33,7 @@ All parameters can by substituted by a wildcard *.
 ### Example(s)
 *Obtain details on all faculties and departments*
 
-https://opendata.concordia.ca/API/v1/course/faculty/filter/*/*
+<https://opendata.concordia.ca/API/v1/course/faculty/filter/*/*>
 
 ## Response
 <table>
