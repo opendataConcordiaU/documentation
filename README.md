@@ -26,6 +26,7 @@ Daily course data export from the Student Information System (SIS) system.
 * [/course/sessions](v1/courses/sessions.md)
 * [/course/faculty](v1/courses/faculty.md)
 * [/course/experiential_learning](v1/courses/experiential_learning.md)
+* [/course/scheduleTerm](v1/courses/scheduleTerm.md)
 
 ### Facilities
 Daily and historical environmental and consumption data obtained from sensors and meters located on both campuses.
