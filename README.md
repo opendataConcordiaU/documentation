@@ -1,5 +1,5 @@
-# OPEN DATA API DOWN - NOVEMBER 10 2023 #
-The Concordia University open data API will be down for maintenance for a few days. We apologize for any inconvenience and appreciate your patience during this time.
+# OPEN DATA STATUS #
+All enndpoint operating normally
 
 # Concordia University Open Data API
 Technology has allowed Concordia to collect large amounts of data and information on a variety of topics, which the university feels should be accessible to all. Concordia’s open data makes machine-readable data easy to access from a single point and free to reuse without copyright, patents or other restrictions.
