@@ -1,4 +1,4 @@
-# OPEN DATA STATUS #
+# API STATUS #
 All enndpoint operating normally
 
 # Concordia University Open Data API
